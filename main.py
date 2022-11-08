@@ -15,6 +15,6 @@ if __name__ == "__main__":
     volume = 40.89
     for i in range(10):
         temperature = delta_T*i
-        print(ut.find_fermi(dos,temperature,criteria,volume))
+        print(ut.find_defect_fermi(dos,temperature,criteria,volume))
      # print(E_fermi)
     
